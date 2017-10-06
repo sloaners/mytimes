@@ -1,8 +1,31 @@
+/*Header Section*/
+
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px black solid;
 }
 
 header p {
   color: MediumAquamarine;
+  margin: 10px;
+}
+
+div.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  margin: 5px;
+  color: black;
 }
