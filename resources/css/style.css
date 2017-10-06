@@ -61,14 +61,28 @@ div.col-3 {
   width: 240px;
 }
 
-/*Col-1 Section*/
+div.stories {
+  display: flex;
+}
 
-div.headline {
+/* <-- /*Col-1 Section --> */
+
+div.story {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 300px;
+  flex-grow: 1;
+}
+
+/* Headline Story */
+
+div.headline-title {
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png)
 }
 
-div.headline h1 {
+div.headline-title h1 {
   display: flex;
   font-family: Georgia;
   font-weight: bold;
@@ -80,4 +94,37 @@ div.headline-content {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+/*Fall Cancelled Story*/
+
+div.fall-cancelled {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+
+}
+
+div.fall-cancelled h2 {
+  display: flex;
+  text-align: center;
+}
+
+/*Research Cameras Story*/
+
+div.research-cameras {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+div.research-cameras h2 {
+  display: flex;
+  text-align: center;
 }
