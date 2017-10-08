@@ -35,11 +35,8 @@ a {
 
 main {
   display: flex;
-  justify-content: space-around;
-}
-
-main section {
-  border: 2px solid black;
+  justify-content: space-between;
+  width: auto;
 }
 
 div.col-1,
@@ -51,6 +48,7 @@ div.col.3 {
 
 div.col-1 {
   width: 630px;
+  align-items: flex-end;
 }
 
 div.col-2 {
@@ -74,7 +72,6 @@ div.story {
   justify-content: space-between;
   flex-direction: column;
   width: 300px;
-  flex-grow: 1;
 }
 
 /* Headline Story */
@@ -114,7 +111,6 @@ div.fall-cancelled {
 }
 
 div.fall-cancelled h2 {
-  display: flex;
   text-align: center;
   font-family: Georgia;
   font-weight: bold;
@@ -129,14 +125,63 @@ div.research-cameras {
   color: white;
   width: 300px;
   height: 300px;
-  flex-grow: 1;
+  /*flex-grow: 1;*/
   align-items: stretch;
 }
 
 div.research-cameras h2 {
-  display: flex;
+  /*display: flex;*/
   text-align: center;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
+}
+
+/*Col - 3 Stuff */
+
+div.col-3 h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+div.link {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px black solid;
+  display: flex;
+}
+
+div.link a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+div.img {
+  display: flex;
+  flex-direction: column;
+}
+
+/*FOOTER*/
+
+footer {
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  margin-top: 30px;
+  flex-grow: 1;
+}
+
+h4 {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
